@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PyScript with External Python</title>
+  <link rel="stylesheet" href="https://pyscript.net/releases/2023.05.1/pyscript.css" />
+  <script defer src="https://pyscript.net/releases/2023.05.1/pyscript.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="outer_box">
+    <div class="box1">
+      <h1>Guess the Number!</h1>
+      <p id="para">Guess a number between 1 and 100. Can you guess it?</p>
+      <div class="inner_box">
+        <label for="number">Enter your guess:</label>
+        <input type="number" name="number" id="number" placeholder="Guess the number">
+      </div>
+      <br>
+      <div class="buttons">
+        <button class="but1">Submit Guess</button>
+        <button class="but2">Reset</button>
+      </div>
+      <h3 class="message" style="display: none;">message</h3>
+    </div>
+  </div>
+  <py-script src="index.py"></py-script>
+</body>
+</html>

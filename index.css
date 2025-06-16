@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.outer_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box1 {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 90vw;
+  max-width: 400px;
+  text-align: center;
+}
+
+
+h1 {
+  margin-bottom: 1rem;
+  color: #0d47a1;
+}
+
+#para {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+
+.inner_box {
+  margin-bottom: 1rem;
+}
+
+input[type="number"] {
+  width: 80%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #90caf9;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="number"]:focus {
+  border-color: #0d47a1;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.but1, .but2 {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 0.6rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.but1 {
+  background-color: #0d47a1;
+  color: white;
+}
+
+.but1:hover {
+  background-color: #1565c0;
+}
+
+.but2 {
+  background-color: #b71c1c;
+  color: white;
+}
+
+.but2:hover {
+  background-color: #d32f2f;
+}
+
+.message {
+  display: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #2e7d32;
+}
